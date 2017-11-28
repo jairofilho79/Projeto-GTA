@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    
+    <title>Introdução</title>
+        <link rel="stylesheet" type="text/css" href="intro.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <header>
+
+        <h1> Introdução</h1>
+
+    </header>
+    <section>
+        <h2 id="h2a"> A ABNT</h2>
+        <p id="a">A Associação Brasileira de Normas Técnicas (ABNT), é a agência
+    reguladora e normalizadora de publicações técnicas no Brasil.</p>
+        <p>No que diz respeito a documentação, ela estabelece as normas do CB-14 (Comitê Brasileiro
+    de Informação e Documentação).</p>    
+    </section>
+    <br><br>
+    <section>
+
+        <h2 id="h2b"> As Normas</h2>
+        <p class="b">Para a elaboração desse trabalho, usamos as
+    seguintes normas:</p>
+        <ul class="b">    
+            <li>ABNT NBR 6023:2002 – Referências;</li>
+            <li>ABNT NBR 6024:2012 –Numeração progressiva das seções de um
+    documento;</li>
+            <li>ABNT NBR 6027:2012 –Sumário;</li>
+            <li>ABNT NBR 6028:2003 –Resumo;</li>
+            <li>ABNT NBR 10520:2002 – Citações em documentos;</li>
+            <li>ABNT NBR 14724:2011 –Trabalhos acadêmicos;</li>
+            <li>IBGE. Normas de apresentação tabular. 3 ed. Rio de janeiro, 1993.</li>        
+        </ul>
+        
+    </section>
+    
+    <h3 style="padding-top: 20%; padding-left: 80%;"> <a href="../fortGrafica/fort.html">Continuar</a></h3>
+    <script>
+            $("h3").fadeIn();
+            $("h2").fadeIn(function(){
+                $("#h2b").hover(function(){
+                    $(".b").fadeIn();
+                });
+                $("#h2a").hover(function(){
+                    $("#a").fadeIn();
+                });
+                                      
+            });
+    
+    </script>
+</body>    
+</html>    

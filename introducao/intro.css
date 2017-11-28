@@ -1,0 +1,40 @@
+body{
+    font-family: Georgia, sans-serif;
+    color:black;
+    overflow-x: hidden;
+}
+
+header{
+    background-color: white;
+    color:black;
+    font-family: sans-serif;
+    width: 16.5%;
+    margin-top: 5%;
+    margin-left:5%;
+    margin-bottom: 8%;
+    text-align: left;    
+    border-bottom: 30px blue solid;
+    border-radius: 15px;
+    border-bottom-width: thick;    
+}
+header h1{
+    font-size: 250%;
+    position: relative;
+    margin-left: 1%;
+}
+p{
+    display: none;
+    padding: 1%;
+    position: relative;
+    margin-left: 7%;    
+}
+ul{
+    display:none;
+    position: relative;
+    margin-left: 7%;
+}
+h2,h3{
+    display: none;
+    position: relative;
+    margin-left: 5%;
+}
