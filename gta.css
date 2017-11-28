@@ -1,0 +1,54 @@
+body{
+    background-color: white;
+    font-family: Georgia, sans-serif;
+    color:darkblue;
+    overflow-x: hidden;
+    height: 100%;
+    width:100%;
+}
+
+header{
+    background-color: white;
+    color:black;
+    font-family: sans-serif;
+    width: 36%;
+    margin-top: 5%;
+    margin-left:5%;
+    margin-bottom: 0.3%;
+    text-align: left;    
+    border-bottom: 30px blue solid;
+    border-radius: 15px;
+    border-bottom-width: thick;    
+}
+header h1{   
+    font-size: 185%;
+    position: relative;
+    margin-left: 1%;
+    
+}
+.mens{
+    
+    font-size: 140%;
+    padding: 8% 0 0 5%;
+    overflow-y: hidden;
+    margin-left: 5%;
+}
+
+#formG, #estrutD,#numProD,#citaD,#notaRodaD,#resmD,#refeD,#monogD,#pubPerD{
+    display: none;
+    position: relative;
+    margin-left: 5%;
+}
+#side{
+    margin:0% 0% 0% 5%;
+}
+#side1{
+    margin:0% 0% 5% 5%;
+}
+hr{
+    position: inherit;
+    margin-right: 15%;
+    overflow-x: hidden;
+}
+
+
