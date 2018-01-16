@@ -1,0 +1,134 @@
+.alerta{
+    color:darkblue;
+    font-weight: bold;
+}
+body{
+    background: url('../bg.png');
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400!important;
+    color:black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 90%;
+}
+
+header{
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    width: 31%;
+    margin-top: 5%;
+    margin-left:5%;
+    margin-bottom: 8%;
+    text-align: left;    
+    border-bottom: 30px blue solid;
+    border-radius: 15px;
+    border-bottom-width: thick;    
+}
+header h1{
+    font-size: 250%;
+    position: relative;
+    margin-left: 1%;
+    padding-top: 15%;
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 110%;
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+/* botão continuar*/
+.btn-txt {
+    padding:10px 20px;
+    margin: 50px 0px;
+}
+.btn-txt a {
+    background:#414872;
+    padding:10px 20px;
+    border-radius:15px;
+    border:none;
+    font-size:1.2rem;
+    color:#fff;
+    font-family:Roboto!important;
+    text-decoration: none;
+
+}
+.btn-txt a:hover {
+    background:#4a5382;
+}
+
+#continuar{
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 82%;
+}
+
+/* Estiliza o Menu */
+#pegaMenu{
+    position: fixed;
+    margin-top: -6.45%;
+    margin-left: 11.1%;
+    width: 130%;
+    
+}
+.menu{
+    width: 100%;
+    height:50px;
+    background-color: #303554;
+    font-family: 'Arial';    
+    padding: 0;
+    margin-left: -9.3%;
+    
+}
+.menu ul{
+    list-style: none;
+    position: relative!important;
+}
+.menu ul li{
+    width: 150px;
+    float: left;
+    font-weight: 600;
+}
+.menu a{
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: #303554;
+    color: #fff;
+}
+.menu ul ul {
+    position: absolute!important;
+    visibility: hidden;
+    margin-left: -2.5%!important;
+    display: block;
+}
+.menu ul li:hover ul{
+    visibility: visible;
+    display: block;
+}
+.menu a:hover{
+    background-color: #4a5382;
+    color:#fff;
+    cursor: pointer;
+    display: block;
+}
+.menu ul ul li{
+    float: none;
+}
+.menu ul ul li a{
+    background-color: #91A1FF;
+}
+#maisConteudo {
+    position: absolute!important;
+    visibility: hidden;
+    margin-left: 57.5%!important;
+    float: left;
+    margin-top: -186.5%;
+}
+#mais:hover #maisConteudo{
+    visibility: visible;
+}

@@ -1,0 +1,196 @@
+body{
+    background: url('../../bg.png');
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400!important;
+    color:black;
+    overflow-x: hidden;
+    height: 90%;
+}
+header{
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    width: 31%;
+    margin-top: 5.1%;
+    margin-left:5.1%;
+    margin-bottom: 8%;
+    text-align: left;    
+    border-bottom: 30px blue solid;
+    border-radius: 15px;
+    border-bottom-width: thick;    
+}
+header h1{
+    font-size: 250%;
+    position: relative;
+    margin-left: 1%;
+    
+    padding-top: 15%;
+}
+
+p{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 110%;
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+    margin-left: 9%;
+    margin-right: 9%;
+    
+}
+#citacoes ul{
+    text-align: justify;
+    position: relative;
+    margin-left: 9%;
+    margin-right: 9%;    
+}
+#citacoes ul p{
+    text-align: justify;
+    position: relative;
+    margin-left: 3%;
+    margin-right: 9%;    
+}
+#citacoes li{
+    font-family: 'Roboto Slab', serif;
+    line-height: 120%;
+    font-size: 17.5px;
+    text-align: justify;
+}
+ol{
+    text-align: justify;
+    position: relative;
+    margin-left: 9%;
+    margin-right: 9%;    
+}
+h3{    
+    position: relative;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top:20px;
+    font-size: 150%;
+    color:#262A42;
+    font-family:'Roboto Slab', serif;
+}
+h2{
+    background: #262A42;
+    border-radius: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    margin-right: 3%;
+    border: outset;
+    margin-left: 3%;
+    color: white;    
+}
+
+.btn-txt {
+    padding:10px 20px;
+    margin: 50px 0px;
+}
+.btn-txt a {
+    background:#414872;
+    padding:10px 20px;
+    border-radius:15px;
+    border:none;
+    font-size:1.2rem;
+    color:#fff;
+    font-family:Roboto!important;
+
+}
+.btn-txt a:hover {
+    background:#4a5382;
+}
+
+.main-inner {
+    padding:20px;
+    margin: 0 60px 0 60px;
+    background: #fff;
+    box-shadow: 4px 4px 6px #ccc;
+}
+
+.navegacao {
+    width:100%;
+    background:none;
+    margin:0px -30px 0px 0px!important;
+    display:inline-block;
+}
+
+.footer-inner {
+    padding:20px;
+    margin: 0 60px 0 60px;
+    background: #fff;
+    box-shadow: 4px 4px 6px #ccc;
+    text-align: center;
+}
+
+.footer-style-1 {
+    padding:20px;
+    margin: 0 10px 0 10px;
+    background: #ccc;
+    display:block;
+    width:95%;
+    
+}
+
+.footer-style-2 {
+    padding:15px;
+    margin-right: 7px !important;
+    background: #000;
+    color: #fff!important;
+    width:28%;
+    display:inline-grid;
+    text-align: justify;
+}
+
+.footer-style-2 .h4 {
+    color: #fff!important;
+    font-weight: 600;
+    text-align: left;
+}
+
+img{
+    margin-left: 11%;
+    margin-bottom: 10%;
+    clear: both;
+}
+img ul{
+    margin-left: 0%;
+    margin-bottom: 10%;
+    clear: both;
+}
+#casosForm {
+    margin-left: 12%;
+    height: 28.5%;
+    width:55%;    
+    padding: 5px;
+    margin-bottom: 5%;
+}
+table {
+    width:100%;
+}
+.LinhaD{
+    border-bottom: 1px solid #ddd!important;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#casosD img{
+    margin-left:15%;
+    margin-bottom: 5%;
+}
+#continuar{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 82%;
+    margin-bottom: 0;
+    padding-bottom: 2%;
+}
+#voltar{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-bottom: 0;
+    padding-bottom: 2%;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
