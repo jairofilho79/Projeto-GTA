@@ -1,3 +1,7 @@
+Colocar o Footer em todos os arquivos;
+
+Terminar de Ajeitar o CSS de cada arquivo (todos estão com o da font.css);
+
 Traduzir imagens para texto;
 
 Trocar o título (introdução, formatação gráfica e Estrutura) para imagens bonitonas;

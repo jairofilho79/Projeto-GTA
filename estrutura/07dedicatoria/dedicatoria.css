@@ -96,7 +96,6 @@ h2{
 img{
     margin-left: 10%;
     clear: both;
-    display: none;
 }
 #sectionUm p{
     margin-right: 10%;
@@ -123,12 +122,3 @@ a{
 .ul2{
     margin-left: 0%;
 }
-.exemplo{
-    color:#404040;
-    cursor: pointer;
-}
-.exemplo:hover{
-    padding-right:5px;
-    color:#7F7F7F;    
-}
-
