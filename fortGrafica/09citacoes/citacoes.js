@@ -12,6 +12,7 @@ $("h3").css("z-index", "-1");
 $("p").css("z-index", "-1");
 $("ol").css("z-index", "-1");
 $("ul").css("z-index", "-1");
+$(".main-inner").css("z-index", "-1");
 $(".menu ul").css("z-index", "0");
 
 

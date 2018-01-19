@@ -103,7 +103,7 @@ h2{
 .main-inner {
     padding:20px;
     margin: 0 60px 0 60px;
-    background: #fff;
+    background:;
     box-shadow: 4px 4px 6px #ccc;
 }
 
@@ -116,7 +116,7 @@ h2{
 
 .footer-inner {
     padding:20px;
-    margin: 0 60px 0 60px;
+    margin: 60px 60px 0 60px;
     background: #fff;
     box-shadow: 4px 4px 6px #ccc;
     text-align: center;
@@ -178,7 +178,7 @@ table {
 }
 #continuar{
     position: absolute;
-    margin-top: 20%;
+    margin-top: 0%;
     margin-left: 82%;
     margin-bottom: 0;
     padding-bottom: 2%;
@@ -186,7 +186,7 @@ table {
 #voltar{
     position: absolute;
     margin-top: 20%;
-    margin-left: 10%;
+    margin-left: 0%;
     margin-bottom: 0;
     padding-bottom: 2%;
 }
