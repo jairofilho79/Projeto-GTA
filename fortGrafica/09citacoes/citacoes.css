@@ -5,7 +5,8 @@ body{
     font-weight: 400!important;
     color:black;
     overflow-x: hidden;
-    height: 90%;
+    /*height: 90%;*/
+    
 }
 header{
     color:black;
@@ -61,15 +62,6 @@ ol{
     margin-left: 9%;
     margin-right: 9%;    
 }
-h3{    
-    position: relative;
-    margin-left: 7%;
-    margin-right: 7%;
-    margin-top:20px;
-    font-size: 150%;
-    color:#262A42;
-    font-family:'Roboto Slab', serif;
-}
 h2{
     background: #262A42;
     border-radius: 5%;
@@ -81,7 +73,15 @@ h2{
     margin-left: 3%;
     color: white;    
 }
-
+h3{    
+    position: relative;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top:20px;
+    font-size: 150%;
+    color:#262A42;
+    font-family:'Roboto Slab', serif;
+}
 .btn-txt {
     padding:10px 20px;
     margin: 50px 0px;
@@ -103,17 +103,32 @@ h2{
 .main-inner {
     padding:20px;
     margin: 0 60px 0 60px;
-    background:;
+    background: white;
     box-shadow: 4px 4px 6px #ccc;
 }
 
 .navegacao {
     width:100%;
     background:none;
-    margin:0px -30px 0px 0px!important;
+    margin:0px -30px 0px 60px!important;
     display:inline-block;
 }
-
+#continuar{
+    position: relative;
+    margin-top: 5%;
+    margin-left: 67%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    float: left;
+}
+#voltar{
+    position: relative;
+    margin-top: 5%;
+    margin-left: 0%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    float:left;
+}
 .footer-inner {
     padding:20px;
     margin: 60px 60px 0 60px;
@@ -127,10 +142,8 @@ h2{
     margin: 0 10px 0 10px;
     background: #ccc;
     display:block;
-    width:95%;
-    
+    width:95%;    
 }
-
 .footer-style-2 {
     padding:15px;
     margin-right: 7px !important;
@@ -140,13 +153,11 @@ h2{
     display:inline-grid;
     text-align: justify;
 }
-
 .footer-style-2 .h4 {
     color: #fff!important;
     font-weight: 600;
     text-align: left;
 }
-
 img{
     margin-left: 11%;
     margin-bottom: 10%;
@@ -160,9 +171,12 @@ img ul{
 #casosForm {
     margin-left: 12%;
     height: 28.5%;
-    width:55%;    
+    width:60%;    
     padding: 5px;
     margin-bottom: 5%;
+}
+#casosD{
+    min-height: 80%;
 }
 table {
     width:100%;
@@ -173,22 +187,7 @@ table {
     margin-top: 10px;
 }
 #casosD img{
-    margin-left:15%;
-    margin-bottom: 5%;
-}
-#continuar{
-    position: absolute;
-    margin-top: 0%;
-    margin-left: 82%;
-    margin-bottom: 0;
-    padding-bottom: 2%;
-}
-#voltar{
-    position: absolute;
-    margin-top: 20%;
-    margin-left: 0%;
-    margin-bottom: 0;
-    padding-bottom: 2%;
+    overflow-x: visible;
 }
 a{
     text-decoration: none;

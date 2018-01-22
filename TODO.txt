@@ -1,19 +1,21 @@
 1.Colocar o Footer em todos os arquivos;
 
-2.Terminar de Ajeitar o CSS de cada arquivo (todos estão com o da font.css); (Jairo)
+2.Terminar de Ajeitar o CSS de cada arquivo (todos estão com o da font.css); (Kelly)
 
 3.Traduzir imagens para texto;
 
-4.Trocar o título (introdução, formatação gráfica e Estrutura) para imagens bonitonas;
+4.Trocar o título (introdução, formatação gráfica e Estrutura) para imagens bonitonas; (Kelly)
 
 5.Ajeitar o Menu (tirar JavaScript); [CONCLUÍDO]
 
-6.Fazer a Referências;
+6.Fazer novo Menu (Mega menu DropDown);
 
-7.Colocar Divs especiais (main,sidebar,fotter,post img);
+7.Fazer a Referências;
 
-8.Fazer alinhamentos padronizados;
+8.Colocar Divs especiais (main,sidebar,fotter,post img);
 
-9.Acrescentar o breadCrumb;
+9.Fazer alinhamentos padronizados;
 
-10.Estilizar o H3;
+10.Acrescentar o breadCrumb;
+
+11.Estilizar o H3;

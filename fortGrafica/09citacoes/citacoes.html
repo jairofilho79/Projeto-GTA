@@ -16,7 +16,7 @@
 
 </head>
 <body>
-     <div id = "pegaMenu">
+    <div id = "pegaMenu">
         <nav class="menu">
             <ul>
                 <li><a href="../../index.html">Inicial</a></li>                
@@ -79,7 +79,7 @@
     <!--Começo do Main-->
     <div class="main-inner">
     
-        <div id="citacoes">
+        <!--<div id="citacoes">-->
 
             <h2>Citações</h2>
 
@@ -129,49 +129,52 @@
             <img src="img/citacao3.PNG"/>
 
             <h3>Outros Casos:</h3>
+            <div id="formD">
             <form id="casosForm">
                 <table>
                     <tr>
-                      <td colspan="1"><input type="radio" name="casos" value="1" checked="checked">Um autor</td>
-                      <td colspan="1"><input type="radio" name="casos" value="2" checked>Dois autores</td>
-                      <td colspan="1"><input type="radio" name="casos" value="3" checked>Três autores</td>
-                      <td colspan="1"><input type="radio" name="casos" value="4" checked>Mais de três autores</td>                   
+                      <td colspan="1"><input type="radio" name="casos" value="1">Um autor</td>
+                      <td colspan="1"><input type="radio" name="casos" value="2">Dois autores</td>
+                      <td colspan="1"><input type="radio" name="casos" value="3">Três autores</td>
+                      <td colspan="1"><input type="radio" name="casos" value="4">Mais de três autores</td>                   
                     </tr>
                         <tr>
                             <table class="LinhaD"></table>  
                         </tr>
                     <tr>
-                        <td colspan="2"><input type="radio" style=" " name="casos" value="5" checked>Coincidência de sobrenomes de autores</td>
-                        <td colspan="2"><input type="radio" name="casos" value="6" checked>Diversos documentos de um mesmo autor</td>
+                        <td colspan="2"><input type="radio" name="casos" value="5">Coincidência de sobrenomes de autores</td>
+                        <td colspan="2"><input type="radio" name="casos" value="6">Diversos documentos de um mesmo autor</td>
                     </tr>
                         <tr>
                             <table class="LinhaD"></table>  
                         </tr>
                     <tr>
-                        <td colspan="2"><input type="radio" name="casos" value="7" checked>Diversos documentos da mesma autoria</td>
-                        <td colspan="2"><input type="radio" name="casos" value="8" checked>Diversos documentos de vários  autores</td>
+                        <td colspan="2"><input type="radio" name="casos" value="7">Diversos documentos da mesma autoria</td>
+                        <td colspan="2"><input type="radio" name="casos" value="8">Diversos documentos de vários  autores</td>
                     </tr>
                         <tr>
                             <table class="LinhaD"></table> 
                         </tr>
                     <tr>
-                        <td colspan="4"><input type="radio" name="casos" value="9" checked>Obras sem indicação de autoria ou responsabilidade</td>
+                        <td colspan="4"><input type="radio" name="casos" value="9">Obras sem indicação de autoria ou responsabilidade</td>
 
                     </tr>
                         <tr>
                             <table class="LinhaD"></table> 
                         </tr>
                     <tr>
-                        <td colspan="4"><input type="radio" name="casos" value="10" checked>Obras sem indicação de autoria ou responsabilidade e iniciada por artigo</td>
+                        <td colspan="4"><input type="radio" name="casos" value="10">Obras sem indicação de autoria ou responsabilidade e iniciada por artigo</td>
                     </tr>
                         <tr>
                             <table class="LinhaD"></table> 
                         </tr>
                     <tr>
-                        <td colspan="4"><input type="radio" name="casos" value="11" checked>Supressões, interpolações, comentários, ênfase ou destaques em CITAÇÕES DIRETAS<br></td>
+                        <td colspan="4"><input type="radio" name="casos" value="11">Supressões, interpolações, comentários, ênfase ou destaques em CITAÇÕES DIRETAS<br></td>
+                        <td colspan="4"><input type="radio" style="display: none;" name="casos" value="12" checked> </td>
                     </tr> 
                 </table>
                 </form>
+            </div>
 
             <div id="casosD">        
                 <!--Um autor-->
@@ -209,7 +212,7 @@
             </div>
             
     
-            </div>
+            <!--</div>-->
             
         </div>    
             <div class="navegacao">    
