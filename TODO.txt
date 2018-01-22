@@ -1,14 +1,14 @@
 1.Colocar o Footer em todos os arquivos;
 
-2.Terminar de Ajeitar o CSS de cada arquivo (todos estão com o da font.css);
+2.Terminar de Ajeitar o CSS de cada arquivo (todos estÃ£o com o da font.css); (Jairo)
 
 3.Traduzir imagens para texto;
 
-4.Trocar o título (introdução, formatação gráfica e Estrutura) para imagens bonitonas;
+4.Trocar o tÃ­tulo (introduÃ§Ã£o, formataÃ§Ã£o grÃ¡fica e Estrutura) para imagens bonitonas;
 
-5.Ajeitar o Menu (tirar JavaScript); [CONCLUÍDO]
+5.Ajeitar o Menu (tirar JavaScript); [CONCLUÃDO]
 
-6.Fazer a Referências;
+6.Fazer a ReferÃªncias;
 
 7.Colocar Divs especiais (main,sidebar,fotter,post img);
 
