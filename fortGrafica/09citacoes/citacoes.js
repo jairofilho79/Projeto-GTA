@@ -2,17 +2,8 @@
 /*jslint browser: true*/
 /*global $, jQuery*/
 
-/*evitar que o menu não funcione com os subtópicos.*/
 
 var document = document;
-
-$(".menu").css("z-index", "999");
-$(".menu a").css("z-index", "999");
-$(".menu ul").css("z-index", "999");
-$(".menu ul ul").css("z-index", "999");
-$(".menu ul li").css("z-index", "999");
-$(".menu ul ul li").css("z-index", "999");
-
 
 $("#casosD img").hide();
 $("#casosForm").change(function () {

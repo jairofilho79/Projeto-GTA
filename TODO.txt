@@ -1,21 +1,33 @@
-1.Colocar o Footer em todos os arquivos;
+1.Colocar o Footer em todos os arquivos; (Jairo)
 
-2.Terminar de Ajeitar o CSS de cada arquivo (todos estão com o da font.css); (Kelly)
+1,5. Perguntar a Kelly o que deve ter no Footer; (Jairo)
 
-3.Traduzir imagens para texto;
+2.Tirar o <script> dos html que não tem js; (Jairo) [CONCLUÍDO]
 
-4.Trocar o título (introdução, formatação gráfica e Estrutura) para imagens bonitonas; (Kelly)
+2,5. Trocar o nome de teste.css para menu.css; (Jairo) [CONCLUÍDO]
 
-5.Ajeitar o Menu (tirar JavaScript); [CONCLUÍDO]
+3.Terminar de Organizar css de cada arquivo (todos estão com o da font.css); (Jairo)
 
-6.Fazer novo Menu (Mega menu DropDown);
+4. Melhorar o CSS (layout); (Kelly)
 
-7.Fazer a Referências;
+5.Colocar Divs especiais (main,sidebar,fotter,post img); (Kelly)
 
-8.Colocar Divs especiais (main,sidebar,fotter,post img);
+6.Fazer alinhamentos padronizados; (Kelly)
 
-9.Fazer alinhamentos padronizados;
+7.Acrescentar o breadCrumb; (Kelly)
 
-10.Acrescentar o breadCrumb;
+8.Estilizar o H3; (Kelly)
 
-11.Estilizar o H3;
+9.Trocar o título (introdução, formatação gráfica e Estrutura) para imagens bonitonas; (Kelly)
+
+10.Converter imagens para texto; (Jairo)
+
+11.Ajeitar o Menu (tirar JavaScript); (Jairo) [CONCLUÍDO] [NOVO] [CONCLUÍDO]
+
+12.Fazer novo Menu (Mega menu DropDown); (Jairo) [CONCLUÍDO]
+
+12,5. Melhorar o estilo do menu(?); (Kelly)
+
+13.Fazer JavaScript do Inicial (Jairo) [CONCLUÍDO]
+
+14.Fazer a Referências; (Jairo)
