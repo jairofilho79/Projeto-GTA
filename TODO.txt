@@ -1,33 +1,33 @@
-1.Colocar o Footer em todos os arquivos; (Jairo)
+1.Colocar o Footer em todos os arquivos;                                               (Jairo)
 
-1,5. Perguntar a Kelly o que deve ter no Footer; (Jairo)
+1,5. Perguntar a Kelly o que deve ter no Footer;                                       (Jairo)
 
-2.Tirar o <script> dos html que não tem js; (Jairo) [CONCLUÍDO]
+2.Tirar o <script> dos html que não tem js;                                            (Jairo) [CONCLUÍDO]
 
-2,5. Trocar o nome de teste.css para menu.css; (Jairo) [CONCLUÍDO]
+2,5. Trocar o nome de teste.css para menu.css;                                         (Jairo) [CONCLUÍDO]
 
-3.Terminar de Organizar css de cada arquivo (todos estão com o da font.css); (Jairo)
+3.Terminar de Organizar css de cada arquivo (todos estão com o da font.css);           (Jairo)
 
-4. Melhorar o CSS (layout); (Kelly)
+4. Melhorar o CSS (layout);                                                            (Kelly)
 
-5.Colocar Divs especiais (main,sidebar,fotter,post img); (Kelly)
+5.Colocar Divs especiais (main,sidebar,fotter,post img);                               (Kelly)
 
-6.Fazer alinhamentos padronizados; (Kelly)
+6.Fazer alinhamentos padronizados;                                                     (Kelly)
 
-7.Acrescentar o breadCrumb; (Kelly)
+7.Acrescentar o breadCrumb;                                                            (Kelly)
 
-8.Estilizar o H3; (Kelly)
+8.Estilizar o H3;                                                                      (Kelly)
 
 9.Trocar o título (introdução, formatação gráfica e Estrutura) para imagens bonitonas; (Kelly)
 
-10.Converter imagens para texto; (Jairo)
+10.Converter imagens para texto;                                                       (Jairo)
 
-11.Ajeitar o Menu (tirar JavaScript); (Jairo) [CONCLUÍDO] [NOVO] [CONCLUÍDO]
+11.Ajeitar o Menu (tirar JavaScript);                                                  (Jairo) [CONCLUÍDO] [NOVO] [CONCLUÍDO]
 
-12.Fazer novo Menu (Mega menu DropDown); (Jairo) [CONCLUÍDO]
+12.Fazer novo Menu (Mega menu DropDown);                                               (Jairo) [CONCLUÍDO]
 
-12,5. Melhorar o estilo do menu(?); (Kelly)
+12,5. Melhorar o estilo do menu(?);                                                    (Kelly)
 
-13.Fazer JavaScript do Inicial (Jairo) [CONCLUÍDO]
+13.Fazer JavaScript do Inicial                                                         (Jairo) [CONCLUÍDO]
 
-14.Fazer a Referências; (Jairo)
+14.Fazer a Referências;                                                                (Jairo)

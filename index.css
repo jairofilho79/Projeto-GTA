@@ -20,7 +20,7 @@ header{
     margin-bottom: 0.3%;
 }
 
-.mens{
+.main-inner{
     font-size: 140%;
     padding: 8% 0 0 5%;
     overflow-y: hidden;
@@ -38,12 +38,12 @@ header{
 #side{
     margin:0% 0% 0% 5%;
 }
-hr{
+.main-inner hr{
     position: inherit;
     margin-right: 15%;
     overflow-x: hidden;
 }
-.mens a{
+.main-inner a{
     color:#00007F;
     text-decoration: none;
     
@@ -71,7 +71,7 @@ hr{
     z-index: -1!important;
 }
 .topico:hover,
-.mens a:hover{
+.main-inner a:hover{
     padding-right:5px;
     color:#0000FF;
 }

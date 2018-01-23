@@ -26,7 +26,7 @@ header h1{
     margin-left: 1%;    
     padding-top: 15%;
 }
-p{
+.main-inner p{
     font-size: 20px;
     text-align: justify;
     line-height: 125%;
@@ -35,19 +35,19 @@ p{
     margin-left: 7%;
     margin-right: 7%;    
 }
-ul{
+.main-inner ul{
     text-align: justify;
     position: relative;
     margin-left: 7%;
     margin-right: 7%;    
 }
-#introdução li{
+.main-inner li{
     font-family: 'Roboto Slab', serif;
     line-height: 120%;
     font-size: 17.5px;
     text-align: justify;
 }
-h2{
+.main-inner h2{
     background: #262A42;
     border-radius: 5%;
     padding-top: 2%;
@@ -82,7 +82,7 @@ h2{
     margin-top: 20%;
     margin-left: 82%;
 }
-a{
+.main-inner a{
     text-decoration: none;
     cursor: pointer;
 }
