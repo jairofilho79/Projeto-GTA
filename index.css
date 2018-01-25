@@ -25,7 +25,7 @@ header{
 #formG, #estrutD,#numProD,#citaD,#notaRodaD,#resmD,#refeD,#monogD,#pubPerD{
     display: none;
     position: relative;
-    margin-left: 5%;
+    margin-left: 15px;
 }
 .mens p{
     font-family: 'Roboto', serif;

@@ -34,10 +34,12 @@ $("#numPro").click(function () {
     if (numPro === false) {
         $("#numProD").fadeIn();
         $("#numPro").html("Numeração Progressiva");
+        $("<i class=\"fa fa-angle-up\" aria-hidden=\"true\" style=\"float:right;padding:4px 10px 0px 0px;\"></i>").appendTo("#numPro");
         numPro = true;
     } else {
         $("#numProD").fadeOut();
         $("#numPro").html("Numeração Progressiva");
+        $("<i class=\"fa fa-angle-down\" aria-hidden=\"true\" style=\"float:right;padding:4px 10px 0px 0px;\"></i>").appendTo("#numPro");
         numPro = false;
     }
 });
@@ -46,10 +48,12 @@ $("#cita").click(function () {
     if (cita === false) {
         $("#citaD").fadeIn();
         $("#cita").html("Citações");
+        $("<i class=\"fa fa-angle-up\" aria-hidden=\"true\" style=\"float:right;padding:4px 10px 0px 0px;\"></i>").appendTo("#cita");
         cita = true;
     } else {
         $("#citaD").fadeOut();
         $("#cita").html("Citações");
+        $("<i class=\"fa fa-angle-down\" aria-hidden=\"true\" style=\"float:right;padding:4px 10px 0px 0px;\"></i>").appendTo("#cita");
         cita = false;
     }
 });
@@ -58,10 +62,12 @@ $("#notaRoda").click(function () {
     if (notaRoda === false) {
         $("#notaRodaD").fadeIn();
         $("#notaRoda").html("Notas de Rodapé");
+        $("<i class=\"fa fa-angle-up\" aria-hidden=\"true\" style=\"float:right;padding:4px 10px 0px 0px;\"></i>").appendTo("#notaRoda");
         notaRoda = true;
     } else {
         $("#notaRodaD").fadeOut();
         $("#notaRoda").html("Notas de Rodapé");
+        $("<i class=\"fa fa-angle-down\" aria-hidden=\"true\" style=\"float:right;padding:4px 10px 0px 0px;\"></i>").appendTo("#notaRoda");
         notaRoda = false;
     }
 
@@ -71,10 +77,12 @@ $("#estrut").click(function () {
     if (estrut === false) {
         $("#estrutD").fadeIn();
         $("#estrut").html("Estrutura");
+        $("<i class=\"fa fa-angle-up\" aria-hidden=\"true\" style=\"float:right;padding:4px 0px 0px 0px;\"></i>").appendTo("#estrut");
         estrut = true;
     } else {
         $("#estrutD").fadeOut();
         $("#estrut").html("Estrutura");
+        $("<i class=\"fa fa-angle-down\" aria-hidden=\"true\" style=\"float:right;padding:4px 0px 0px 0px;\"></i>").appendTo("#estrut");
         estrut = false;
     }
 
@@ -84,10 +92,12 @@ $("#resm").click(function () {
     if (resm === false) {
         $("#resmD").fadeIn();
         $("#resm").html("Resumo");
+        $("<i class=\"fa fa-angle-up\" aria-hidden=\"true\" style=\"float:right;padding:4px 0px 0px 0px;\"></i>").appendTo("#resm");
         resm = true;
     } else {
         $("#resmD").fadeOut();
         $("#resm").html("Resumo");
+        $("<i class=\"fa fa-angle-down\" aria-hidden=\"true\" style=\"float:right;padding:4px 0px 0px 0px;\"></i>").appendTo("#resm");
         resm = false;
     }
 
@@ -97,10 +107,12 @@ $("#refe").click(function () {
     if (refe === false) {
         $("#refeD").fadeIn();
         $("#refe").html("Referências");
+        $("<i class=\"fa fa-angle-up\" aria-hidden=\"true\" style=\"float:right;padding:4px 0px 0px 0px;\"></i>").appendTo("#refe");
         refe = true;
     } else {
         $("#refeD").fadeOut();
         $("#refe").html("Referências");
+        $("<i class=\"fa fa-angle-down\" aria-hidden=\"true\" style=\"float:right;padding:4px 0px 0px 0px;\"></i>").appendTo("#refe");
         refe = false;
     }
 });
@@ -109,10 +121,12 @@ $("#monog").click(function () {
     if (monog === false) {
         $("#monogD").fadeIn();
         $("#monog").html("Monografia");
+        $("<i class=\"fa fa-angle-up\" aria-hidden=\"true\" style=\"float:right;padding:4px 0px 0px 0px;\"></i>").appendTo("#monog");
         monog = true;
     } else {
         $("#monogD").fadeOut();
         $("#monog").html("Monografia");
+        $("<i class=\"fa fa-angle-down\" aria-hidden=\"true\" style=\"float:right;padding:4px 0px 0px 0px;\"></i>").appendTo("#monog");
         monog = false;
     }
 });
@@ -121,10 +135,12 @@ $("#pubPer").click(function () {
     if (pubPer === false) {
         $("#pubPerD").fadeIn();
         $("#pubPer").html("Publicação Periódica");
+        $("<i class=\"fa fa-angle-up\" aria-hidden=\"true\" style=\"float:right;padding:4px 0px 0px 0px;\"></i>").appendTo("#pubPer");
         pubPer = true;
     } else {
         $("#pubPerD").fadeOut();
         $("#pubPer").html("Publicação Periódica");
+        $("<i class=\"fa fa-angle-down\" aria-hidden=\"true\" style=\"float:right;padding:4px 0px 0px 0px;\"></i>").appendTo("#pubPer");
         pubPer = false;
     }
 });
