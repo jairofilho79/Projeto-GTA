@@ -3,7 +3,7 @@
 #pegaMenu{
     position: fixed;
     margin-top: -5.3%;
-    margin-left: -8.7%;
+   /* margin-left: -10.7%;*/
     width: 110%;
     z-index: 999;
 }
@@ -19,18 +19,18 @@ body {
 }
 
 .container {
-  max-width: 1000px;
-  margin: 0 auto;
+  max-width: 100%;
+  margin: auto 17.5% auto 8.5%;
+
 }
 
 nav {
-  background: #fff;
-  box-shadow: 0 0 15px 0 rgba(0,0,0,.10)
+  background: linear-gradient(-120deg, #7f5a8b, #54428b, #77528b);
+  box-shadow: 0 0 15px 0 rgba(0,0,0,.10);
 }
 
 nav ul {
   margin: 0;
-  padding: 0;
   list-style: none;
   position: relative;
   text-align: left;
@@ -41,15 +41,21 @@ nav li {
 }
 
 nav a {
-  color: #444;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
   text-decoration: none;
+  font-weight: 300;
   display: block;
-  padding: .75em 1.75em;
+  padding:15px 30px;
+  text-align: left;
 }
 
 nav li:hover {
-  background: #444;
+  background: #543f83;
 }
+
+#
 
 nav li:hover a {
   color: #fff;
@@ -59,11 +65,13 @@ nav li:hover a {
 .menu-sub {
   position: absolute;
   left: 0;
-  background: #444;
+  background: linear-gradient(to bottom, #543f83, #604e89);
   width: 100%;
   display: none;
   color: #fff;
   padding: 2em;
+  /*border-bottom-left-radius: 40px !important;
+  border-bottom-right-radius: 40px !important;*/
 }
 
 nav li:hover .menu-sub {
@@ -75,8 +83,12 @@ nav li:hover .menu-sub {
 }
 
 .menu-sub a {
-  padding: 0;
+  padding: 0 !important;
   margin-bottom: .35em;
+}
+
+.menu-sub li:hover {
+  background: none!important;
 }
 
 .menu-sub a:hover {

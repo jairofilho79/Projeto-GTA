@@ -18,12 +18,14 @@ $("#form").click(function () {
     "use strict";
     if (form === false) {
         $("#formG").fadeIn();
-        $("#form").html("Formatação Gráfica (&#9650)");
+        $("#form").html("Formatação Gráfica");
+        $("<i class=\"fa fa-angle-up\" aria-hidden=\"true\" style=\"float:right;padding:4px 0px 0px 0px;\"></i>").appendTo("#form");
         form = true;
     } else {
         $("#formG").fadeOut();
 
-        $("#form").html("Formatação Gráfica (&#9660)");
+        $("#form").html("Formatação Gráfica");
+        $("<i class=\"fa fa-angle-down\" aria-hidden=\"true\" style=\"float:right;padding:4px 0px 0px 0px;\"></i>").appendTo("#form");
         form = false;
     }
 });
@@ -31,11 +33,11 @@ $("#numPro").click(function () {
     "use strict";
     if (numPro === false) {
         $("#numProD").fadeIn();
-        $("#numPro").html("Numeração Progressiva (&#9650)");
+        $("#numPro").html("Numeração Progressiva");
         numPro = true;
     } else {
         $("#numProD").fadeOut();
-        $("#numPro").html("Numeração Progressiva (&#9660)");
+        $("#numPro").html("Numeração Progressiva");
         numPro = false;
     }
 });
@@ -43,11 +45,11 @@ $("#cita").click(function () {
     "use strict";
     if (cita === false) {
         $("#citaD").fadeIn();
-        $("#cita").html("Citações (&#9650)");
+        $("#cita").html("Citações");
         cita = true;
     } else {
         $("#citaD").fadeOut();
-        $("#cita").html("Citações (&#9660)");
+        $("#cita").html("Citações");
         cita = false;
     }
 });
@@ -55,11 +57,11 @@ $("#notaRoda").click(function () {
     "use strict";
     if (notaRoda === false) {
         $("#notaRodaD").fadeIn();
-        $("#notaRoda").html("Notas de Rodapé (&#9650)");
+        $("#notaRoda").html("Notas de Rodapé");
         notaRoda = true;
     } else {
         $("#notaRodaD").fadeOut();
-        $("#notaRoda").html("Notas de Rodapé (&#9660)");
+        $("#notaRoda").html("Notas de Rodapé");
         notaRoda = false;
     }
 
@@ -68,11 +70,11 @@ $("#estrut").click(function () {
     "use strict";
     if (estrut === false) {
         $("#estrutD").fadeIn();
-        $("#estrut").html("Estrutura (&#9650)");
+        $("#estrut").html("Estrutura");
         estrut = true;
     } else {
         $("#estrutD").fadeOut();
-        $("#estrut").html("Estrutura (&#9660)");
+        $("#estrut").html("Estrutura");
         estrut = false;
     }
 
@@ -81,11 +83,11 @@ $("#resm").click(function () {
     "use strict";
     if (resm === false) {
         $("#resmD").fadeIn();
-        $("#resm").html("Resumo (&#9650)");
+        $("#resm").html("Resumo");
         resm = true;
     } else {
         $("#resmD").fadeOut();
-        $("#resm").html("Resumo (&#9660)");
+        $("#resm").html("Resumo");
         resm = false;
     }
 
@@ -94,11 +96,11 @@ $("#refe").click(function () {
     "use strict";
     if (refe === false) {
         $("#refeD").fadeIn();
-        $("#refe").html("Referências (&#9650)");
+        $("#refe").html("Referências");
         refe = true;
     } else {
         $("#refeD").fadeOut();
-        $("#refe").html("Referências (&#9660)");
+        $("#refe").html("Referências");
         refe = false;
     }
 });
@@ -106,11 +108,11 @@ $("#monog").click(function () {
     "use strict";
     if (monog === false) {
         $("#monogD").fadeIn();
-        $("#monog").html("Monografia (&#9650)");
+        $("#monog").html("Monografia");
         monog = true;
     } else {
         $("#monogD").fadeOut();
-        $("#monog").html("Monografia (&#9660)");
+        $("#monog").html("Monografia");
         monog = false;
     }
 });
@@ -118,11 +120,11 @@ $("#pubPer").click(function () {
     "use strict";
     if (pubPer === false) {
         $("#pubPerD").fadeIn();
-        $("#pubPer").html("Publicação Periódica (&#9650)");
+        $("#pubPer").html("Publicação Periódica");
         pubPer = true;
     } else {
         $("#pubPerD").fadeOut();
-        $("#pubPer").html("Publicação Periódica (&#9660)");
+        $("#pubPer").html("Publicação Periódica");
         pubPer = false;
     }
 });

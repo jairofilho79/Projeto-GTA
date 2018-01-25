@@ -11,9 +11,10 @@
         <meta charset="UTF-8">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         
+        <script src="https://use.fontawesome.com/37e3b97759.js"></script>
+
         <style>
             @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i');
-            @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
         </style>
     
     </head>    
@@ -219,108 +220,117 @@
             </div>
             </nav>
         </div>
-        <header></header>
+        <header>
+            <a href="index.html"><img src="logo_render.png" width="500"/></a>
+        </header>
         
         <div class="main-inner">
         
-        <p>Seja muito bem-vindo ao Guia de Trabalhos Acadêmicos.<br>
-            O objetivo é explicar de forma simples e interativa, como deve ser feito o seu trabalho, ok?<br>
-            E você, nunca se esqueça, sempre tome notas e pratique o seu aprendizado :)<br>
-            Mãos a obra!</p>
-            <br> <br>
-        <p style="font-size:120%" class="side"> O que vamos conhecer:</p>
+        <p style="text-align: justify;" class="style-1">Seja bem-vindo ao Guia de Elaboração de Trabalhos Acadêmicos!<br/>
+                O objetivo deste guia, é explicar de maneira simples e interativa, os padrões que seu trabalho deve possuir, seguindo as normas da ABNT.
+                E para aperfeiçoamento das técnicas aqui aprendidas, não se esqueça, de sempre tomar notas e praticar o seu aprendizado!<br>
+                Mãos a obra!
+                <br/> <br/>
+                O que você irá conhecer neste guia:
+            </p>
+            
             <!--Introdução-->
-            <hr><h3 class="topico"> <a href="introducao/introducao.html">Introdução</a></h3><hr>
+                <div class="topico">
+                    <a href="introducao/introducao.html">Introdução<i class="fa fa-angle-right" aria-hidden="true" style="float:right;padding:4px 0px 0px 0px;" ></i></a>
+            </div>
             
             <!--Formatação Gráfica-->
-            <h3 class="topico"><span id="form">Formatação Gráfica (&#9660)</span></h3><hr>
-            <div id="formG">
-                <h4 class="topico"><a href="fortGrafica/fort.html">Introdução</a></h4><hr>
-                <h4 class="topico"><a href="fortGrafica/margem/margem.html" >Margem</a></h4><hr>
-                <h4 class="topico"><a href="fortGrafica/tipTamFonte/tipTamFonte.html">Tipo e Tamanho de Fonte</a></h4><hr>
-                <h4 class="topico"><a href="fortGrafica/espacoEntreLinhas/espacoEntreLinhas.html">Espaço Entre Linhas</a></h4><hr>
-                <h4 class="topico"> <span id="numPro">Numeração Progressiva (&#9660)</span></h4><hr>
+
+            <h3 class="topico">
+                <div id="form" class="expand-topic">Formatação Gráfica <i class="fa fa-angle-down" aria-hidden="true" style="float:right;padding:4px 0px 0px 0px;"></i></span></h3>
+            <div id="formG" style="margin-top:20px;">
+                <div class="sub-topico"><a href="fortGrafica/fort.html">Introdução</a></div>
+                <div class="sub-topico"><a href="fortGrafica/margem/margem.html" >Margem</a></div>
+                <div class="sub-topico"><a href="fortGrafica/tipTamFonte/tipTamFonte.html">Tipo e Tamanho de Fonte</a></div>
+                <div class="sub-topico"><a href="fortGrafica/espacoEntreLinhas/espacoEntreLinhas.html">Espaço Entre Linhas</a></div>
+                <div class="sub-topico"> <span id="numPro">Numeração Progressiva <i class="fa fa-angle-right" aria-hidden="true" style="float:right;padding:4px 0px 0px 0px;" ></i></span></div>
                 <div id="numProD">
-                    <h5 class="topico"><a href="fortGrafica/numProgressiva/numProgressiva.html">Introdução</a></h5><hr>
-                    <h5 class="topico"><a href="fortGrafica/numProgressiva/numProgressiva.html#alinea">Alínea e Subalínea</a></h5><hr>
+                    <div class="sub-topico"><a href="fortGrafica/numProgressiva/numProgressiva.html">Introdução</a></div>
+                    <div class="sub-topico"><a href="fortGrafica/numProgressiva/numProgressiva.html#alinea">Alínea e Subalínea</a></div>
                 </div>                    
-                <h4 class="topico"><a href="fortGrafica/paginacao/paginacao.html">Paginação</a></h4><hr>
-                <h4 class="topico"><a href="fortGrafica/equacoes/equacoes.html">Equações</a></h4><hr>
-                <h4 class="topico"><a href="fortGrafica/ilustracoes/ilustracoes.html">Ilustrações</a></h4><hr>
-                <h4 class="topico"><a href="fortGrafica/tabelas/tabelas.html">Tabelas</a></h4><hr>
-                <h4 class="topico"><span id="cita">Citações (&#9660)</span></h4><hr>
+                <div class="sub-topico"><a href="fortGrafica/paginacao/paginacao.html">Paginação</a></div>
+                <div class="sub-topico"><a href="fortGrafica/equacoes/equacoes.html">Equações</a></div>
+                <div class="sub-topico"><a href="fortGrafica/ilustracoes/ilustracoes.html">Ilustrações</a></div>
+                <div class="sub-topico"><a href="fortGrafica/tabelas/tabelas.html">Tabelas</a></div>
+                <div class="sub-topico"><span id="cita">Citações (&#9660)</span></div>
                  <div id="citaD">
-                    <h5 class="topico"><a href="fortGrafica/citacoes/citacoes.html">Introdução</a></h5><hr>
-                    <h5 class="topico"><a href="fortGrafica/citacoes/citacoes.html">Citação Direta</a></h5><hr>
-                    <h5 class="topico"><a href="fortGrafica/citacoes/citacoes.html">Citação Indireta</a></h5><hr>
-                    <h5 class="topico"><a href="fortGrafica/citacoes/citacoes.html">Citação de Rodapé</a></h5><hr>
+                    <div class="sub-topico"><a href="fortGrafica/citacoes/citacoes.html">Introdução</a></div>
+                    <div class="sub-topico"><a href="fortGrafica/citacoes/citacoes.html">Citação Direta</a></div>
+                    <div class="sub-topico"><a href="fortGrafica/citacoes/citacoes.html">Citação Indireta</a></div>
+                    <div class="sub-topico"><a href="fortGrafica/citacoes/citacoes.html">Citação de Rodapé</a></div>
                 </div>                     
-                <h4 class="topico"><span id="notaRoda">Notas de Rodapé (&#9660)</span></h4><hr>
+                <div class="sub-topico"><span id="notaRoda">Notas de Rodapé (&#9660)</span></div>
                     <div id="notaRodaD">
-                        <h5 class="topico"><a href="fortGrafica/notasDeRodape/notasDeRodape.html">Introdução</a></h5><hr>
-                        <h5 class="topico"><a href="fortGrafica/notasDeRodape/notasDeRodape.html">Notas Explicativa</a></h5><hr>
-                        <h5 class="topico"><a href="fortGrafica/notasDeRodape/notasDeRodape.html">Notas de Referência</a></h5><hr>
+                        <div class="sub-topico"><a href="fortGrafica/notasDeRodape/notasDeRodape.html">Introdução</a></div>
+                        <div class="sub-topico"><a href="fortGrafica/notasDeRodape/notasDeRodape.html">Notas Explicativa</a></div>
+                        <div class="sub-topico" style="border:none!important"><a href="fortGrafica/notasDeRodape/notasDeRodape.html">Notas de Referência</a></div>
                     </div>                    
-            </div>    
-            <h3 class="topico"><span id="estrut">Estrutura (&#9660)</span></h3><hr>
-            <div id="estrutD">
-                <h4 class="topico">Introdução<a href="estrutura/estrutura.html"></a></h4><hr>
-                <h4 class="topico"><a href="">Capa</a></h4><hr>
-                <h4 class="topico"><a href="">Folha de Rosto</a></h4><hr>
-                <h4 class="topico"><a href="">Ficha Catalográfica</a></h4><hr>
-                <h4 class="topico"><a href="">Errata</a></h4><hr>
-                <h4 class="topico"><a href="">Folha de Aprovação</a></h4><hr>
-                <h4 class="topico"><a href="">Dedicatória</a></h4><hr>
-                <h4 class="topico"><a href="">Agradecimentos</a></h4><hr>
-                <h4 class="topico"><a href="">Epígrafe</a></h4><hr>
-                <h4 class="topico"><span id="resm">Resumo (&#9660)</span></h4><hr>
+            </div>  
+
+            <h3 class="topico"><span id="estrut">Estrutura (&#9660)</span></h3>
+            <div id="estrutD"  style="margin-top:20px;">
+                <div class="sub-topico">Introdução<a href="estrutura/estrutura.html"></a></div>
+                <div class="sub-topico"><a href="">Capa</a></div>
+                <div class="sub-topico"><a href="">Folha de Rosto</a></div>
+                <div class="sub-topico"><a href="">Ficha Catalográfica</a></div>
+                <div class="sub-topico"><a href="">Errata</a></div>
+                <div class="sub-topico"><a href="">Folha de Aprovação</a></div>
+                <div class="sub-topico"><a href="">Dedicatória</a></div>
+                <div class="sub-topico"><a href="">Agradecimentos</a></div>
+                <div class="sub-topico"><a href="">Epígrafe</a></div>
+                <div class="sub-topico"><span id="resm">Resumo (&#9660)</span></div>
                     <div id="resmD">
-                        <h5 class="topico"><a href="">Introdução</a></h5><hr>
-                        <h5 class="topico"><a href="">Resumo na Lingua Vernácula</a></h5><hr>
-                        <h5 class="topico"><a href="">Resumo na Lingua Estrangeira</a></h5><hr>
+                        <div class="sub-topico"><a href="">Introdução</a></div>
+                        <div class="sub-topico"><a href="">Resumo na Lingua Vernácula</a></div>
+                        <div class="sub-topico"><a href="">Resumo na Lingua Estrangeira</a></div>
                     </div>                    
-                <h4 class="topico"><a href="">Lista de Ilustração</a></h4><hr>
-                <h4 class="topico"><a href="">Lista de Tabelas</a></h4><hr>
-                <h4 class="topico"><a href="">Lista de Abreviações e Siglas</a></h4><hr>
-                <h4 class="topico"><a href="">Lista de Símbolos</a></h4><hr>
-                <h4 class="topico"><a href="">Sumário</a><hr></h4> 
-                <h4 class="topico"><a href="">Elementos Textuais</a></h4><hr>
-                <h4 class="topico"><span id="refe">Referências (&#9660)</span></h4><hr>
+                <div class="sub-topico"><a href="">Lista de Ilustração</a></div>
+                <div class="sub-topico"><a href="">Lista de Tabelas</a></div>
+                <div class="sub-topico"><a href="">Lista de Abreviações e Siglas</a></div>
+                <div class="sub-topico"><a href="">Lista de Símbolos</a></div>
+                <div class="sub-topico"><a href="">Sumário</a></div> 
+                <div class="sub-topico"><a href="">Elementos Textuais</a></div>
+                <div class="sub-topico"><span id="refe">Referências (&#9660)</span></div>
                     <div id="refeD">
-                        <h5 class="topico"><span id="monog">Monografia (&#9660)</span></h5><hr>
+                        <div class="topico"><span id="monog">Monografia (&#9660)</span></div>
                             <div id="monogD">
-                                <h6 class="topico"><a href="">Introdução</a></h6><hr>
-                                <h6 class="topico"><a href="">Um Autor</a></h6><hr>
-                                <h6 class="topico"><a href="">Dois ou Três Autores</a></h6><hr>
-                                <h6 class="topico"><a href="">Mais de três Autores</a></h6><hr>
-                                <h6 class="topico"><a href="">Órgãos Governamentais</a></h6><hr>
-                                <h6 class="topico"><a href="">Autoria Desconhecida</a></h6><hr>
-                                <h6 class="topico"><a href="">Autor(Organizador,Compilador,Editor,Coordenador,etc)</a></h6><hr>
-                                <h6 class="topico"><a href="">Parte de publicação com mesmo autor</a></h6><hr>
-                                <h6 class="topico"><a href="">Parte de publicação com autores diferentes</a></h6><hr>
+                                <div class="sub-topico"><a href="">Introdução</a></div>
+                                <div class="sub-topico"><a href="">Um Autor</a></div>
+                                <div class="sub-topico"><a href="">Dois ou Três Autores</a></div>
+                                <div class="sub-topico"><a href="">Mais de três Autores</a></div>
+                                <div class="sub-topico"><a href="">Órgãos Governamentais</a></div>
+                                <div class="sub-topico"><a href="">Autoria Desconhecida</a></div>
+                                <div class="sub-topico"><a href="">Autor(Organizador,Compilador,Editor,Coordenador,etc)</a></div>
+                                <div class="sub-topico"><a href="">Parte de publicação com mesmo autor</a></div>
+                                <div class="sub-topico"><a href="">Parte de publicação com autores diferentes</a></div>
                             </div>    
-                        <h5 class="topico"><span id="pubPer">Publicação Periódica (&#9660)</span></h5><hr>
+                        <div class="sub-topico"><span id="pubPer">Publicação Periódica (&#9660)</span></div>
                             <div id="pubPerD">
-                                <h6 class="topico"><a href="">Introdução</a></h6><hr>
-                                <h6 class="topico"><a href="">Publicação Periódica como um todo</a></h6><hr>
-                                <h6 class="topico"><a href="">Artigo de publicação Periódica</a></h6><hr>
-                                <h6 class="topico"><a href="">Artigo de publicação Periódica em meio eletrônico</a></h6><hr>
+                                <div class="sub-topico"><a href="">Introdução</a></div>
+                                <div class="sub-topico"><a href="">Publicação Periódica como um todo</a></div>
+                                <div class="sub-topico"><a href="">Artigo de publicação Periódica</a></div>
+                                <div class="sub-topico"><a href="">Artigo de publicação Periódica em meio eletrônico</a></div>
                             </div>    
-                        <h5 class="topico"><a href="">Trabalhos apresentados em Congresso, Simpósio, Conferência e outros eventos</a></h5><hr>
-                        <h5 class="topico"><a href="">Tese, dissertação e trabalho de conclusão de curso</a></h5><hr>
-                        <h5 class="topico"><a href="">Documento jurídico</a></h5><hr>
-                        <h5 class="topico"><a href="">Imagem em movimento</a></h5><hr>
-                        <h5 class="topico"><a href="">Documento iconográfico</a></h5><hr>
-                        <h5 class="topico"><a href="">Documento cartográfico</a></h5><hr>
-                        <h5 class="topico"><a href="">Obras consultads em meio eletrônico</a></h5><hr>
-                        <h5 class="topico"><a href="">Patentes</a></h5><hr>
-                        <h5 class="topico"><a href="">Casos Especiais</a></h5><hr>
+                        <div class="sub-topico"><a href="">Trabalhos apresentados em Congresso, Simpósio, Conferência e outros eventos</a></div>
+                        <div class="sub-topico"><a href="">Tese, dissertação e trabalho de conclusão de curso</a></div>
+                        <div class="sub-topico"><a href="">Documento jurídico</a></div>
+                        <div class="sub-topico"><a href="">Imagem em movimento</a></div>
+                        <div class="sub-topico"><a href="">Documento iconográfico</a></div>
+                        <div class="sub-topico"><a href="">Documento cartográfico</a></div>
+                        <div class="sub-topico"><a href="">Obras consultads em meio eletrônico</a></div>
+                        <div class="sub-topico"><a href="">Patentes</a></div>
+                        <div class="sub-topico"><a href="">Casos Especiais</a></div>
                     </div>
-                    <h4 class="topico"><a href="">Glossário</a></h4><hr>
-                    <h4 class="topico"><a href="">Apêndice</a></h4><hr>
-                    <h4 class="topico"><a href="">Anexo</a></h4><hr>
-                    <h4 class="topico"><a href="">Índice</a></h4><hr>
-                    <h4 class="topico"><a href="">Referências</a></h4><hr>
+                    <div class="sub-topico"><a href="">Glossário</a></div>
+                    <div class="sub-topico"><a href="">Apêndice</a></div>
+                    <div class="sub-topico"><a href="">Anexo</a></div>
+                    <div class="sub-topico"><a href="">Índice</a></div>
+                    <div class="sub-topico"><a href="">Referências</a></div>
             </div>    
             
             
